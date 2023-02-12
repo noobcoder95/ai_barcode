@@ -19,18 +19,20 @@ packages:
   ai_barcode_platform_interface:
     dependency: transitive
     description:
-      name: ai_barcode_platform_interface
-      sha256: d257cde6d3416f2474c7cebd4d259edd7685cd341a2bcfa65592bdd83fc974d5
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: c9a0842fee30753df20e255711a51f03592e76fa
+      url: "https://github.com/noobcoder95/ai_barcode_platform_interface.git"
+    source: git
     version: "3.0.1"
   ai_barcode_web:
     dependency: transitive
     description:
-      name: ai_barcode_web
-      sha256: "4b94b9dc3c8242b496581c94a0628a9ad307bbf56e8265c1fc54950f0fe811a9"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: c9331d19c5bbecd75de88b4271088b7bf308e68e
+      url: "https://github.com/noobcoder95/ai_barcode_web.git"
+    source: git
     version: "3.0.1"
   air_design:
     dependency: "direct main"
