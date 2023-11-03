@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'dart:ui';
 
 import 'package:airoute/airoute.dart';
 
@@ -20,8 +19,7 @@ class _TaskNextState extends State<TaskNextPage> {
 
   @override
   Widget build(BuildContext context) {
-    double screenWidth = window.physicalSize.width / window.devicePixelRatio;
-    double screenHeight = window.physicalSize.height / window.devicePixelRatio;
+    double screenWidth = View.of(context).physicalSize.width / View.of(context).devicePixelRatio;
 
     var screenWidthSize = screenWidth;
     return Scaffold(
